@@ -50,7 +50,7 @@ def callback():
     session['d_id'] = user['id']
     session['d_avatar'] = f"https://cdn.discordapp.com/avatars/{user['id']}/{user['avatar']}.png"
     
-    return redirect("https://levladeev-beep.github.io/roblox-2016/index.html?success=true") # Укажи свой точный URL GitHub Pages
+    return redirect("https://levladeev-beep.github.io/roblox-2016-project/index.html?success=true") # Укажи свой точный URL GitHub Pages
 
 @app.route('/save_login', methods=['POST'])
 def save_login():
